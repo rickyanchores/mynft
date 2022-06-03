@@ -1,5 +1,4 @@
-import React from 'react'
-import heroImage from "../../images/myNFT.webp";
+import React from 'react';
 
 const Home = () => {
 
