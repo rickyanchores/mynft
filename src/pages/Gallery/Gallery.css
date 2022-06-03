@@ -1,4 +1,4 @@
-.Home {
+.Gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,7 +13,7 @@
   color: whitesmoke;
 }
 
-.Home h3 {
+.Gallery h3 {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
@@ -23,24 +23,7 @@
   width: 50%;
 }
 
-.Home img {
+.Gallery img {
   width: 50%;
 }
-
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  background: #333;
-  color: whitesmoke;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-img {
-  width: 100%;
-}
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=Gallery.css.map */

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='Home'>
         <h3>Home</h3>
-        <img className="hero" src={heroImage} alt="nft" />
+        <p>My personal NFT collection</p>
     </div>
   )
 }

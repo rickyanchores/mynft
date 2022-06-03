@@ -1,17 +1,11 @@
 .Home{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-width: 80%;
-color: whitesmoke;
-margin: auto;
-    h3{
-        //position: absolute;
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        font-size: 150px;
-    }
-    img{
-        width: 450px;
-    }
+    background: #ccc;
+    color: #333;
+    font-size: 45px;
+   height: 80vh;
+   border: whitesmoke 2px solid;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
 }
