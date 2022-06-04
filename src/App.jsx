@@ -20,8 +20,8 @@ function App() {
           <Route exact component={Home} />
         </Routes>
         <Home />
-        <Gallery />
         <About />
+        <Gallery />
         <Banner />
         <Footer />
       </Router>
