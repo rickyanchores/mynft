@@ -6,7 +6,7 @@ const SocialMedia = () => {
       id: "soc1",
       name: "Instagram",
       href: {
-        pathname: "https://instagram.com/"
+        pathname: "https://www.instagram.com/rikid_ev/"
       }
     },
     {
@@ -18,10 +18,10 @@ const SocialMedia = () => {
     },
     {
       id: "soc3",
-      name: "ETSY",
+      name: "YouTube",
       href: {
         pathname:
-          "https://www.etsy.com/"
+          "https://www.youtube.com/"
       }
     }
   ];

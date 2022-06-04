@@ -28,7 +28,7 @@ const Gallery = (props) => {
     ] 
 
     return (
-        <div className='Gallery'>
+        <div className='Gallery' id='gallery'>
             <h3>Gallery</h3>
             <div className="card-container">
                 <Card 

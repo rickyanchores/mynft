@@ -5,6 +5,8 @@
 @import '../src/components/Socialmedia/Socialmedia.scss';
 @import '../src/pages/Footer/Footer.scss';
 @import '../src/components/Card/Card.scss';
+@import '../src/pages/About/About.scss';
+@import '../src/components/Bannner/Banner.scss';
 *{
   padding: 0;
   margin: 0;
@@ -12,7 +14,7 @@
 }
 
 body{
-  background: #333;
+  background: black;
   color: whitesmoke;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

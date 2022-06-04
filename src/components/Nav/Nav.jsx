@@ -7,21 +7,21 @@ const Nav = () => {
     const navList = [
         {
             name: "Home",
-            href: "/"
+            href: "#"
         },
         {
             name: "Gallery",
-            href: "/gallery"
+            href: "#gallery"
         },
         {
             name: "About",
-            href: "/about"
+            href: "#about"
         }
     ]
 
     return (
         <div className='Nav'>
-            <h3 className='logo'>Nav</h3>
+            <h1 className='logo'>RikoNFT</h1>
             <div className="hamburger">
                 hamburger
             </div>
@@ -29,7 +29,7 @@ const Nav = () => {
                 {navList.map((link) => {
                     return(
                         <li>
-                            <Link className="link" to={link.href}>{link.name}</Link>
+                            <Link smooth className="link" to={link.href}>{link.name}</Link>
                         </li>
                     )
                 })}
