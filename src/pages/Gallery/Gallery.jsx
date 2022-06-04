@@ -3,6 +3,11 @@ import Card from '../../components/Card/Card';
 
 //IMPORT IMAGES
 import image1 from "../../images/myNFT.webp";
+import image2 from "../../images/PetBotYellow.jpeg";
+import image3 from "../../images/DarkBudz.jpeg";
+
+
+
 
 
 const Gallery = (props) => {
@@ -13,12 +18,12 @@ const Gallery = (props) => {
             text: "FALSE IDOLS"
         },
         {
-            name: "IGNIS",
-            text: "FALSE IDOLS"
+            name: "Yellow",
+            text: "PetBot"
         },
         {
-            name: "IGNIS",
-            text: "FALSE IDOLS"
+            name: "Masked Ninja",
+            text: "DarkBudz"
         }
     ] 
 
@@ -28,18 +33,18 @@ const Gallery = (props) => {
             <div className="card-container">
                 <Card 
                     image={image1}
-                    title={card[0].title}
+                    name={card[0].name}
                     text={card[0].text}
                 />
                 <Card 
-                    image={image1}
-                    title={card[0].title}
-                    text={card[0].text}
+                    image={image2}
+                    name={card[1].name}
+                    text={card[1].text}
                 />
                 <Card 
-                    image={image1}
-                    title={card[0].title}
-                    text={card[0].text}
+                    image={image3}
+                    name={card[2].name}
+                    text={card[2].text}
                 />
                 
             </div>
