@@ -1,0 +1,36 @@
+.Footer{
+    background: black;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.5em rebeccapurple solid;
+    border-bottom: 
+    0.5em rebeccapurple solid;
+    h1{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .f-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    .socialMedia{
+      display: flex;
+      //flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 50%;
+      .social-link{
+        list-style: none;
+        padding: 1em;
+      }
+    }
+  }
+  .signature{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  }

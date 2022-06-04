@@ -2,18 +2,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 8em;
     border: 2px solid red;
     width: 80%;
     margin: auto;
     color: whitesmoke;
         h3{
-            //position: absolute;
+            padding-left: 45%;
             writing-mode: vertical-lr;
             transform: rotate(180deg);
             font-size: 150px;
             width: 50%;
         }
         img{
-            width: 50%;
+            width: 350px;
         }
 }

@@ -1,12 +1,48 @@
 import React from 'react'
-import image from "../../images/myNFT.webp";
+import Card from '../../components/Card/Card';
+
+//IMPORT IMAGES
+import image1 from "../../images/myNFT.webp";
 
 
-const Gallery = () => {
+const Gallery = (props) => {
+
+    const card = [
+        {
+            name: "IGNIS",
+            text: "FALSE IDOLS"
+        },
+        {
+            name: "IGNIS",
+            text: "FALSE IDOLS"
+        },
+        {
+            name: "IGNIS",
+            text: "FALSE IDOLS"
+        }
+    ] 
+
     return (
         <div className='Gallery'>
             <h3>Gallery</h3>
-            <img src={image} alt="" />
+            <div className="card-container">
+                <Card 
+                    image={image1}
+                    title={card[0].title}
+                    text={card[0].text}
+                />
+                <Card 
+                    image={image1}
+                    title={card[0].title}
+                    text={card[0].text}
+                />
+                <Card 
+                    image={image1}
+                    title={card[0].title}
+                    text={card[0].text}
+                />
+                
+            </div>
         </div>
     )
 }

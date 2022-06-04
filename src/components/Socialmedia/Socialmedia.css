@@ -1,0 +1,22 @@
+.SocialMedia {
+  padding: 2em;
+  margin: 2em;
+}
+
+.SocialMedia .socLink {
+  color: whitesmoke;
+  background-color: black;
+  text-decoration: none;
+  margin: 1em;
+  border: 2px solid rebeccapurple;
+  font-weight: bolder;
+  padding: 1em;
+}
+
+.SocialMedia .socLink:hover {
+  background-color: royalblue;
+  color: black;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+/*# sourceMappingURL=Socialmedia.css.map */

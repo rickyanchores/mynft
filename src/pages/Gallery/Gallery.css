@@ -7,6 +7,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 8em;
   border: 2px solid red;
   width: 80%;
   margin: auto;
@@ -14,6 +15,7 @@
 }
 
 .Gallery h3 {
+  padding-left: 45%;
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
@@ -24,6 +26,6 @@
 }
 
 .Gallery img {
-  width: 50%;
+  width: 350px;
 }
 /*# sourceMappingURL=Gallery.css.map */

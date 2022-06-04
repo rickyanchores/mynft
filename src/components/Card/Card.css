@@ -1,0 +1,11 @@
+.Card {
+  border: 5px black solid;
+  margin: 1em;
+  width: 350px;
+  text-align: center;
+}
+
+.Card img {
+  width: 100%;
+}
+/*# sourceMappingURL=Card.css.map */
