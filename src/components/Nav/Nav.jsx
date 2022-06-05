@@ -10,12 +10,16 @@ const Nav = () => {
             href: "#"
         },
         {
+            name: "About",
+            href: "#about"
+        },
+        {
             name: "Gallery",
             href: "#gallery"
         },
         {
-            name: "About",
-            href: "#about"
+            name: "Contact",
+            href: "#footer"
         }
     ]
 
