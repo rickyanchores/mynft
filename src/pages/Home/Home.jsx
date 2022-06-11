@@ -10,11 +10,9 @@ const Home = () => {
   // const heroImage = require('../../images/myNFT.webp').default;
 
   return (
-    <div className='Home' id='home'
-     style={{
-       backgroundImage: `url(${heroImage})`}
-       }>
+    <div className='Home' id='home'>
         <h1>RikoNFT</h1>
+        <img src={ heroImage } alt="" />
     </div>
   )
 }
